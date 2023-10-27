@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main .content {
+    flex-grow: 1;
+    width: 100%;
+    background-color: var(--gray);
+    position: relative;
+}
+
+.main .content .icon-bg {
+    background-image: url(/assets/logo/icon-grey.svg);
+    opacity: 0.1;
+    transform: translateX(-10%);
+    pointer-events: none;
+}

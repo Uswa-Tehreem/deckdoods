@@ -1,0 +1,131 @@
+#hero-cta {
+    height: 100vh;
+    background-image: url(/assets/img/Hero1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#hero-cta > img {
+    flex-grow: 1;
+}
+
+
+#catalouge {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 20px;
+    gap: 60px;
+    background-color: var(--black);
+    color: var(--white);
+}
+#catalouge h2 {
+    font-family: 'Charley';
+    font-size: 3rem;
+    color: var(--orange);
+    margin-bottom: -40px;
+}
+#catalouge .subtitle {
+    width: 45%;
+    text-align: center;
+}
+#catalouge .view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#catalouge .view .product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#catalouge .view .product img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+#catalouge .view .product:hover img {
+    border-radius: 30%;
+}
+#catalouge * {
+    z-index: 2;
+}
+#catalouge > .icon-bg {
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+#about {
+    color: var(--black);
+    display: flex;
+    background-image: url(/assets//img//bg.svg);
+    background-size: contain;
+    background-size: 100px;
+}
+#about .padding {
+    flex-grow: 1;
+}
+#about .container {
+    background-color: var(--white);
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 40px;
+    gap: 40px;
+    z-index: 2;
+}
+#about .container h2 {
+    font-family: 'Charley';
+    font-size: 6rem;
+    color: var(--red);
+}
+
+
+#contact {
+    background-color: var(--orange);
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    padding: 80px 20px;
+    gap: 4px;
+    padding-left: 55%;
+}
+#contact h3 {
+    font-size: 1.5rem;
+}
+#contact div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 0.9rem;
+}
+
+
+footer {
+    background-color: var(--white);
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Charley';
+    font-size: 3rem;
+}
+
+footer.black {
+    background-color: var(--black);
+    color: var(--white);
+}
