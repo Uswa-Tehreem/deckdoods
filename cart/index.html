@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deckdoods - Cart</title>
+    <link rel="stylesheet" href="/global.css" />
+    <link rel="stylesheet" href="/styles/_cart-page.css" />
+    <script src="/scripts/main.js" defer></script>
+    <script src="/scripts/cart-page.js" defer></script>
 </head>
 
 <body>
-
+    <div class="main">
+        <div class="content">
+            <div class="icon-bg"></div>
+            <nav>
+                <a href="/">
+                    <img src="/assets/logo/icon-white.svg" alt="Deckdoods Icon" height="32" />
+                </a>
+                <div>
+                    <a href="/#catalouge">Shop</a>
+                    <a href="#" class="cart-link active">
+                        Cart
+                        <span id="cart-count" class="cart-count">0</span>
+                    </a>
+                    <a href="/#contact">Contact</a>
+                </div>
+            </nav>
+            <div class="view">
+                <div id="cart-list"></div>
+                <button class="pay-btn">Pay Now</button>
+            </div>
+        </div>
+        <footer class="black">DECKDOODS</footer>
+    </div>
 </body>
-
 </html>

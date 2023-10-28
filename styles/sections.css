@@ -112,20 +112,3 @@
     gap: 4px;
     font-size: 0.9rem;
 }
-
-
-footer {
-    background-color: var(--white);
-    color: var(--black);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    font-family: 'Charley';
-    font-size: 3rem;
-}
-
-footer.black {
-    background-color: var(--black);
-    color: var(--white);
-}

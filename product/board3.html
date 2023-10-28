@@ -1,14 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deckdoods - Board 3</title>
+    <link rel="stylesheet" href="/global.css" />
+    <link rel="stylesheet" href="/styles/_board-page.css" />
+    <script src="/scripts/main.js" defer></script>
+    <script src="/scripts/board-page.js" defer></script>
 </head>
 
 <body>
+    <div class="main">
+        <div class="content">
+            <div class="icon-bg"></div>
+            <nav class="black">
+                <a href="/">
+                    <img src="/assets/logo/icon-black.svg" alt="Deckdoods Icon" height="32" />
+                </a>
+                <div>
+                    <a href="/#catalouge">Shop</a>
+                    <a href="/cart" class="cart-link">
+                        Cart
+                        <span id="cart-count" class="cart-count">0</span>
+                    </a>
+                    <a href="/#contact">Contact</a>
+                </div>
+            </nav>
+            <div class="view">
+                <div class="preview-selectors">
+                    <img id="preview-1" src="/assets/img/product/3.2.jpeg" alt="preview 1" />
+                    <img id="preview-2" src="/assets/img/product/3.3.jpeg" alt="preview 2" />
+                </div>
+                <div class="preview-img">
+                    <img id="preview-img" src="/assets/img/product/3.1.jpeg" alt="Product 3" />
+                </div>
+                <div class="description">
+                    <h3>Japanese Koi Karper Fish Design Skateboard</h3>
+                    <div class="data">
+                        <div class="rating">
+                            <div>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    fill="currentColor"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M8 0l2.112 5.236h5.376L10.88 8.764l1.608 4.236L8 10.764l-4.488 2.236 1.608-4.236L.512 5.236h5.376L8 0z"
+                                    />
+                                </svg>
 
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    fill="currentColor"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M8 0l2.112 5.236h5.376L10.88 8.764l1.608 4.236L8 10.764l-4.488 2.236 1.608-4.236L.512 5.236h5.376L8 0z"
+                                    />
+                                </svg>
+
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    fill="currentColor"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M8 0l2.112 5.236h5.376L10.88 8.764l1.608 4.236L8 10.764l-4.488 2.236 1.608-4.236L.512 5.236h5.376L8 0z"
+                                    />
+                                </svg>
+
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    fill="currentColor"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M8 0l2.112 5.236h5.376L10.88 8.764l1.608 4.236L8 10.764l-4.488 2.236 1.608-4.236L.512 5.236h5.376L8 0z"
+                                    />
+                                </svg>
+
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    fill="currentColor"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M8 0l2.112 5.236h5.376L10.88 8.764l1.608 4.236L8 10.764l-4.488 2.236 1.608-4.236L.512 5.236h5.376L8 0z"
+                                    />
+                                </svg>
+                            </div>
+                            <div>4.6 (81)</div>
+                        </div>
+                        <div class="price">$58.24</div>
+                        <div>per skateboard</div>
+                    </div>
+                    <div class="btn-container">
+                        <div class="btn secondary" onclick="addToCart('board3')">Add to cart</div>
+                        <div class="btn" onclick="addToCart('board3', '/cart')">Buy Now</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>DECKDOODS</footer>
+    </div>
 </body>
-
 </html>

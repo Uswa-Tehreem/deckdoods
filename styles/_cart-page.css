@@ -1,0 +1,114 @@
+* {
+    z-index: 2;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    background-color: var(--black);
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-bg {
+    background-image: url(/assets/logo/icon-grey2.svg);
+    transform: translateX(-10%);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.view {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    gap: 60px;
+}
+
+#cart-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--dark-gray);
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    max-height: 500px;
+    overflow-y: scroll;
+}
+#cart-list::-webkit-scrollbar {
+    width: 0px;
+}
+
+.item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.item div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: var(--white);
+    color: var(--black);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item button {
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.pay-btn {
+    background-color: var(--orange);
+    color: var(--red);
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.pay-btn:hover {
+    background-color: var(--red);
+    color: var(--white);
+}
